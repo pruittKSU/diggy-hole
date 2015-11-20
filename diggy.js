@@ -6589,6 +6589,8 @@ module.exports = (function (){
       case 13: // ENTER
         event.preventDefault();
 		stateManager.popState();
+	window.open ("http://i.imgur.com/thfd10R.png",
+"mywindow","menubar=1,resizable=1,width=704,height=480");
         break;
     }
   }
